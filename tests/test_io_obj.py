@@ -33,7 +33,7 @@ from .common_testing import (
 
 
 DATA_DIR = get_tests_dir() / "data"
-TUTORIAL_DATA_DIR = get_pytorch3d_dir() / "docs/tutorials/data"
+TUTORIAL_DATA_DIR = get_tests_dir().parent / "docs/tutorials/data"
 
 
 class TestMeshObjIO(TestCaseMixin, unittest.TestCase):
